@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <title>BR Picker</title>
+    <link href="stylesheet.css" rel="stylesheet" type="text/css" >
+</head>
+<body onload="myFunction()">
+<center>
+	
+    <font face="Trebuchet MS">
+    <div class="scrollmenu">
+    <a href="index.html">Home</a>
+    <a href="picker.html">BR Picker</a> 
+    <a href="onethro.html">1-3 Random Number</a>	    
+    </font>
+	</div>
+<br></br>	
+<center> <button onClick="window.location.reload();">Refresh</button> </center>	
+	
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+	var greeting;
+	var num = Math.floor((Math.random() * 2) + 1);
+	if (num == 1) {
+		greeting = "Play Apex";
+		"2.png";
+		} else {
+		greeting = "Play Fortnite";
+		}
+	document.getElementById("demo").innerHTML = greeting;
+	}
+</script>
+
+</center>
+</body>
+</html>
